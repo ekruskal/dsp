@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> Pycharm, I've been using pycharm for some time now, it's hard to remember why I first chose it but since I have I've have nothing but good things to say about it.
+>> Pycharm, I've been using pycharm for some time now, it's hard to remember why I first chose it but since I have I've have nothing but good things to say about it. I really like Pycharms debugger, it's easy to use and really helps with that process. The keyboard shortcut I probably use the most is the double shift to search everywhere shortcut. The customizations I've done are mostly asthetic, just getting the colors and fonts right to make it easy to use for me personally.
 
 ---

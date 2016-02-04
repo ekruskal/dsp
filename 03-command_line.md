@@ -12,7 +12,9 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > ls will list all the files and folders in your current directory.
+> > 
+
+    ls will list all the files and folders in your current directory.
 
     mv [file name] [destination] will move a file in your current directory to the destination. mv [old file name] [new file name] will rename the file.
     

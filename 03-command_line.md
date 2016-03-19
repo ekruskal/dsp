@@ -53,6 +53,10 @@ ls -l will list the contents of your current directory using a long listing patt
 
 ls -lh will perform the same operation as ls -l, except it will display the size in a human readable format.
 
+Now let's say I wanted to list the contents of my directories using a long listing pattern but I wanted to include files that began with ".". Then I would combine the flags -l and -a like so:  ls -l -a
+
+
+
 ---
 
 

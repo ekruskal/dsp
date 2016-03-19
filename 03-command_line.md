@@ -49,7 +49,7 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
     ls -a will list all the contents of your current directory including those that begin with ".".
 
-    ls -l will list the contents of your current directory using a long listing pattern, meaning it will list them vetically
+    ls -l will list the contents of your current directory using a long listing pattern, meaning it will list them vertically
     and will provide additional information, such as size and creation date.
 
     ls -lh will perform the same operation as ls -l, except it will display the size in a human readable format.

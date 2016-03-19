@@ -24,7 +24,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     
     cp [file or directory] [destination] will copy a file or directory to the given destination.
     
-    more [file] will print the contents of a file page by page.
+    less [file] will print the contents of a file in a new window with paging.
     
     [command] > [file] will take the output from the command and write it to the file on the right.
     
@@ -32,9 +32,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     
     a* is the set of all elements of your directory starting with a, *a is the set of all elements of your directory ending in a, a*.* is the set of all elements in your directory containing a.
     
-    select-string [string] [files] searches the files for the given string.
+    grep [string] [files] searches the files for the given string.
     
-    help [command] will give you the name and aliases of the command and all accessible optionswhile performing the command.
+    man [command] will give you the name and description of the command and all accessible optionswhile performing the command.
 
 ---
 
@@ -44,6 +44,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+ls will list the contents of your current directory excluding those that begin with ".".
+
+ls -a will list all the contents of your current directory including those that begin with ".".
+
+ls -l will list the contents of your current directory using a long listing pattern, meaning it will list them vetically and will provide additional information, such as size and creation date.
+
+ls -lh will perform the same operation as ls -l, except it will display the size in a human readable format.
 
 ---
 

@@ -74,9 +74,15 @@ What does `xargs` do? Give an example of how to use it.
 
     So for example, let's say I had a text file temp.txt. Written in this textfile are the words newfile1, newfile2, newfile3
     on seperate lines. Now suppose I wanted to use the command line to take the contents of temp.txt, and create new text files
-    newfile1.txt, newfile2.txt, and newfile3.txt. The first thing I would try would be $cat temp.txt | touch. But this pops up
-    an error, because touch can only take in a file name, not standard input. So instead I would have to use 
-    $cat temp.txt | xargs touch. This would get me the desired results.
+    newfile1.txt, newfile2.txt, and newfile3.txt. The first thing I would try would be 
+    
+    $cat temp.txt | touch
+    
+    But this pops up an error, because touch can only take in a file name, not standard input. So instead I would have to use 
+    
+    $cat temp.txt | xargs touch 
+    
+    This would get me the desired results.
 
 ---
 

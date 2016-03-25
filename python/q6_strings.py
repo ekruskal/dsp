@@ -126,6 +126,15 @@ def verbing(s):
 
 
 def not_bad(s):
+    counter = 0
+    for i in range(0, len(s) - 3):
+        if s[i] + s[i+1] + s[i+2] == 'not':
+            for j in range(0, len(s) - i - 2):
+                if s[i + j] + s[i + j + 1] + s[i + j + 2] == 'bad':
+                    return s[:i] + 'good'
+                    counter += 1
+    if counter == 0:
+        return s
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole

@@ -3,6 +3,12 @@
 
 
 def donuts(count):
+    if count < 0:
+        return 'that\'s not a valid number'
+    elif count < 10:
+        return 'Number of donuts: ' + str(count)
+    elif count >= 10:
+        return 'Many'
     """
     Given an int count of a number of donuts, return a string of the
     form 'Number of donuts: <count>', where <count> is the number
@@ -22,6 +28,11 @@ def donuts(count):
 
 
 def both_ends(s):
+    n = len(s)
+    if n < 2:
+        return ''
+    else:
+        return s[0]+s[1]+s[n-2]+s[n-1]
     """
     Given a string s, return a string made of the first 2 and the last
     2 chars of the original string, so 'spring' yields 'spng'.
@@ -41,6 +52,14 @@ def both_ends(s):
 
 
 def fix_start(s):
+    x = s[0]
+    word = x
+    for i in range(0, len(s) - 1):
+        if s[i+1] == x:
+            word += '*'
+        else:
+            word += s[i+1]
+    return word
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the

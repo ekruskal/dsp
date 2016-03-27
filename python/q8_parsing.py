@@ -25,6 +25,7 @@ def get_min_score_difference(parsed_data):
     del parsed_data[0]
     for i in parsed_data:
         total.append((abs(int(i[5]) - int(i[6]))))
+    print(min(total))
     return min(total)
 
 
@@ -34,5 +35,6 @@ def get_team(index_value, parsed_data):
     for i in parsed_data:
         if abs(int(i[5]) - int(i[6])) == index_value:
             teams.append(i[0])
+    print(teams)
     return teams
 

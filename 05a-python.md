@@ -37,7 +37,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> lambda is a keyword used to create an anonymous function. So (lambda x: x-1)(2) will return 1. So if you want to use a function once without the bother of formally defining it, lambda can be useful. So if I want to sort a list A = [[1,2], [3,1], [0,3]] based off of the second entry of each element lambda can be used in the sorted function as follows 
 
-sorted(A, key = lambda x: x[1])
+	sorted(A, key = lambda x: x[1])
 
 >> which will run the anonymous lamda function that takes the second entry of each element, then sorts based off of them.
 

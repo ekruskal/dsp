@@ -9,11 +9,30 @@
 
 import csv
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+def read_data(data):
+    row_list = []
+    with open(data) as csvfile:
+        reader = csv.reader(csvfile, delimiter=',')
+        for row in reader:
+            row_list.append(row)
+            print(row)
+    return row_list
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+
+def get_min_score_difference(parsed_data):
+    total = []
+    del parsed_data[0]
+    for i in parsed_data:
+        total.append((abs(int(i[5]) - int(i[6]))))
+    return min(total)
+
+
+def get_team(index_value, parsed_data):
+    teams = []
+    del parsed_data[0]
+    for i in parsed_data:
+        if abs(int(i[5]) - int(i[6])) == index_value:
+            teams.append(i[0])
+    return teams
+

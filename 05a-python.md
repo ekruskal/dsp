@@ -12,7 +12,11 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> test
+>> The most obvious similarly between tuples and lists is that they are both ordered collections of data. As a result they have very similar operations. Using a[0] will give you the first element of the collection if a is a tuple or a list, and writing a loop such as 
+For x in list1: 
+	print(x) 
+will work for both tuples and lists. And as opposed to sets they both allow for duplicates. The biggest difference between the two is that tuples are immutable, while lists mutable. Meaning that tuples are best used when looking at data you don't want to change, for example the (x,y) coordinate list of a graph. While you would use lists for data that you are constantly appending, so your path history while walking around the said graph. While this may lead you to believe that we should always use lists, there are some advantages to using tuples. For example since tuples are mutable, they can be used as dictionary keys. If you tried to use an immutable object like a list for a dictionary key, you wouldn't be able to find the dictionary entry after changing the list. But mainly you should use tuples over lists whenever you can simply because they are lighter weight computationally speaking. So your program will run faster if you are using tuples over lists.
+
 
 ---
 

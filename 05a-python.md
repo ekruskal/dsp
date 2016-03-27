@@ -47,7 +47,27 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> list comprehensions in python gives us a way to create lists exactly as you would if approaches a problem from a mathematical perspective. So if I wanted to create a list of squares from every number 0 to 100, instead of creating the list [0, 1, .., 100], looping through that list to square each element and appending it to the list that I want, I could simply write
+
+	Squares = [x**2 for x in range(101)]
+>> I could also use the map() function to accomplish the same goal as above in a relatively simple manner.
+
+	A = [0, 1, …, 100]
+	Squares = map(lambda x: [x**2], A)
+>>Now let's say I'm given a list of numbers B and I want to create a new list B_even that lists all the even numbers in B. Using list comprehension I could simply write
+
+	B_even = [x for x in B if x%2 == 0]
+>> I could also use the filter() function to perform this same task by doing the following,
+
+	B_even = filter[lambda x: x%2 == 0, B]
+
+>> In general I would use list comprehensions over map() or filter() just because they make my code more readable. But usually map() and filter() are a little faster. Also if you already have the functions defined earlier in your code that you're using for map() or filter() it makes them that much easier to write. Similar syntax is used for set and dictionary comprehension, some examples shown below.
+
+	S = {2**x for x in range(10)}
+>> Gives the set  consisting of the first 10 powers of 2.
+
+	D = {x : x+1 for x in range(5)}
+>> Gives the dictionary whose keys are the numbers 0 to 4 with values one greater.
 
 ---
 

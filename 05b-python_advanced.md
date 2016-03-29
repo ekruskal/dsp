@@ -75,6 +75,8 @@ faculty_dict = { 'Ellenberg': [\
             }
 ```
 Print the first 3 key and value pairs of the dictionary:
+>>
+
 
   faculty_dict = {'Li': [\
                   [' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu'], \

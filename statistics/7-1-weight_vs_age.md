@@ -10,5 +10,8 @@ indices = np.digitize(age, bins)
 groups = data.groupby(indices)
 ```
 
-Once I successfully binned the ages, I represented each bin by the mean of all ages contained in that bin. Then I made a cdf for each bin using the corresponding weights. Then, using cdf.Percentile, I took from each cdf the weights that corresponded to the 75th, 50th, and 25th percentiles and plotted them versus age. This resulted in the following plot:
+>> Once I successfully binned the ages, I represented each bin by the mean of all ages contained in that bin. Then I made a cdf for each bin using the corresponding weights. Then, using cdf.Percentile, I took from each cdf the weights that corresponded to the 75th, 50th, and 25th percentiles and plotted them versus age. This resulted in the following plot:
 ![percentile plot](https://github.com/ekruskal/dsp/blob/master/figure_6.png?raw=true)
+
+
+Finally I used the built in functions Corr() and SpearmanCorr() to get the Pearson and Spearman correlations respectively. Pearson's correlation was 0.624719188999, and Spearman's correlation was 0.582865963183. The relative strength of pearson's correlation tells us the variables have a stronger linear correlation than a rank correlation.

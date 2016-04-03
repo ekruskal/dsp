@@ -19,3 +19,4 @@ def Biaspmf(pmf, label=''):
  ```   
  
 >> The mean for the actual distribution is 1.02420515504. The mean for the biased distribution is 2.40367910066. The following is a plot of the two distributions side by side.
+![image of distributions](https://raw.githubusercontent.com/ekruskal/dsp/13da4d3ebfdf7de342f67c5beb1c956aedf2e731/figure_1.png)

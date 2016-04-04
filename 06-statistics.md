@@ -79,7 +79,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> When you use frequentists statistics, you use probabilities only constructed from sampling. While in using Bayesian statistics, you begin with a prior probability distribution and then modify it according to your data set. So for example let's say I were to flip a coin 100 times and get heads 65 times. Frequent statistics would claim that the probability of getting heads is .65. Bayesian statistics however would start with a probability distribution that is centered around .5 and then adjust it to the data collected by sampling, which would result in a probability closer to .5 than what you would get with frequentists statistics. So if you are confident in the probabilities you can infer from your experiment, Bayesian statistics will give you more accurate results. The downside is Bayesian statistics can be more complex than frequentist statistics, and that in a way you aren't as objective when using Bayesian statistics in that you are assuming a prior probility distribution that may not be correct. So if in the above example the coin actually turned out to be weighted, frequntists statistics would get a more accurate conclusion than Bayesian statistics, since you assumed an inaccurate prior probability distribution when performing the latter.
 
 ---
 

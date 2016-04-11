@@ -33,18 +33,27 @@ import statsmodels
 import sklearn
 ```
 
----
+### Install [Homebrew](http://brew.sh/) on Mac
 
-Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
-
->> Python 3.5, because it was the newest version compatible with Anaconda. Type "python --version" in the command line will produce the version of Python installed in the computer.
-
----
-
-
-### Homebrew
-
-If you use a Mac, install [Homebrew](http://brew.sh/) if you don't
+If you use a Mac, install Homebrew if you don't
 have it yet. You could use Homebrew to manage your `git` and `python`
 installs as well, but the methods given above are very good and more
 cross-platform.
+
+---
+
+###Q1. Python Version 2 or 3
+
+Did you install Python 2 or 3? Why?  
+
+>> Python 3.5, because it was the newest version compatible with Anaconda. Type "python --version" in the command line will produce the version of Python installed in the computer.
+
+###Q2. Which Python Version Installed   
+
+How can you check the version of Python installed if you happen to be on an unfamiliar computer?
+
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
+
+ 
+
+

@@ -46,6 +46,8 @@ $ git clone https://github.com/AllenDowney/ThinkStats2.git
 
 ###Required Exercises
 
+*Include your Python code, results and explanation (where applicable).*
+
 ###Q1. [Think Stats Chapter 2 Exercise 4](statistics/2-4-cohens_d.md) (effect size of Cohen's d)  
 Cohen's D is an example of effect size.  Other examples of effect size are:  correlation between two variables, mean difference, regression coefficients and standardized test statistics such as: t, Z, F, etc. In this example, you will compute Cohen's D to quantify (or measure) the difference between two groups of data.   
 
@@ -60,13 +62,9 @@ This questions asks you to examine the function that produces random numbers.  I
 ###Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
-###Q5. [Think Stats Chapter 7 Exercise 1](statistics/7-1-weight_vs_age.md) (correlation of weight vs. age)
-In this exercise, you will compute the effect size of correlation.  Correlation measures the relationship of two variables, and data science is about exploring relationships in data.    
 
-###Q6. [Think Stats Chapter 8 Exercise 2](statistics/8-2-sampling_dist.md) (sampling distribution)
-In the theoretical world, all data related to an experiment or a scientific problem would be available.  In the real world, some subset of that data is available.  This exercise asks you to take samples from an exponential distribution and examine how the standard error and confidence intervals vary with the sample size.
 
-###Q7. Bayesian (Elvis Presley twin) 
+###Q5. Bayesian (Elvis Presley twin) 
 
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way.  It helps incorporate conditional probabilities into our conclusions.
 
@@ -76,7 +74,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 ---
 
-###Q8. Bayesian &amp; Frequentist Comparison  
+###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
 >> When you use frequentists statistics, you use probabilities only constructed from sampling. While in using Bayesian statistics, you begin with a prior probability distribution and then modify it according to your data set. So for example let's say I were to flip a coin 100 times and get heads 65 times. Frequent statistics would claim that the probability of getting heads is .65. Bayesian statistics however would start with a probability distribution that is centered around .5 and then adjust it to the data collected by sampling, which would result in a probability closer to .5 than what you would get with frequentists statistics. So if you are confident in the probabilities you can infer from your experiment, Bayesian statistics will give you more accurate results. The downside is Bayesian statistics can be more complex than frequentist statistics, and that in a way you aren't as objective when using Bayesian statistics in that you are assuming a prior probility distribution that may not be correct. So if in the above example the coin actually turned out to be weighted, frequntists statistics would get a more accurate conclusion than Bayesian statistics, since you assumed an inaccurate prior probability distribution when performing the latter.
@@ -87,9 +85,17 @@ How do frequentist and Bayesian statistics compare?
 
 The following exercises are optional, but we highly encourage you to complete them if you have the time.
 
+###Q7. [Think Stats Chapter 7 Exercise 1](statistics/7-1-weight_vs_age.md) (correlation of weight vs. age)
+In this exercise, you will compute the effect size of correlation.  Correlation measures the relationship of two variables, and data science is about exploring relationships in data.    
+
+###Q8. [Think Stats Chapter 8 Exercise 2](statistics/8-2-sampling_dist.md) (sampling distribution)
+In the theoretical world, all data related to an experiment or a scientific problem would be available.  In the real world, some subset of that data is available.  This exercise asks you to take samples from an exponential distribution and examine how the standard error and confidence intervals vary with the sample size.
+
 ###Q9. [Think Stats Chapter 6 Exercise 1](statistics/6-1-household_income.md) (skewness of household income)
 ###Q10. [Think Stats Chapter 8 Exercise 3](statistics/8-3-scoring.md) (scoring)
 ###Q11. [Think Stats Chapter 9 Exercise 2](statistics/9-2-resampling.md) (resampling)
+
+---
 
 ## More Resources
 
